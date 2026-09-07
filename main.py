@@ -1,5 +1,8 @@
-import ui.main_windows as main_windows
+from ui.main_windows import Mainwindows
+from tkinter import*
 
-#This code runs main_windows.py at starting of application⬇️
-if __name__ == "__main__":
-    main_windows.run()
+
+if __name__ == "__main__":      # This code runs main_windows.py at starting of application.
+    tk = Tk()
+    app = Mainwindows(tk)
+    app.run()
