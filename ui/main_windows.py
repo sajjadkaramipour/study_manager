@@ -46,3 +46,7 @@ class Mainwindows:
                 label1.grid(row=0, column=0, sticky="nsew")
 #---------End content---------
 
+#---------Start run---------
+        def run(self):
+                self.tk.mainloop()
+#---------End run---------
