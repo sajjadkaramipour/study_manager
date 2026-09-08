@@ -36,3 +36,13 @@ class Mainwindows:
 
 #---------End sidebar---------
 
+#---------Start content---------
+                content=Frame(self.tk, bg="white")
+                content.grid(column=1, row=0, sticky="nsew")
+                content.grid_propagate(False)
+                content.grid_columnconfigure(0, weight=1)
+                content.grid_rowconfigure(0,weight=1)
+                label1=Label(content, text="There isn't page.", font=("Segoe UI",13), fg="gray", bg="white")
+                label1.grid(row=0, column=0, sticky="nsew")
+#---------End content---------
+
